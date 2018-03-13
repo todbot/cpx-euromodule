@@ -254,6 +254,7 @@
 <dimension x1="39" y1="-62.5" x2="37.1" y2="-59.5" x3="48.4" y3="-61" textsize="1.778" layer="47" dtype="vertical" visible="yes"/>
 <dimension x1="-43" y1="-62.5" x2="42" y2="-62.5" x3="-0.5" y3="-82.8" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="46.8" y1="4" x2="43.8" y2="-62.5" x3="59.8" y3="-29.25" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="46.8" y1="4" x2="11.36" y2="-8" x3="45.7" y3="-2" textsize="1.778" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="todstuff" urn="urn:adsk.eagle:library:1731349">

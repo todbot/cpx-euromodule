@@ -9182,6 +9182,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="-86.36" y1="129.54" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="VR1" gate="G$1" pin="S"/>
 <label x="-48.26" y="129.54" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9213,6 +9214,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="-86.36" y1="83.82" x2="-33.02" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="VR2" gate="G$1" pin="S"/>
 <label x="-48.26" y="83.82" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9244,6 +9246,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="-86.36" y1="40.64" x2="-33.02" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="VR3" gate="G$1" pin="S"/>
 <label x="-48.26" y="40.64" size="1.778" layer="95"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9275,6 +9278,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="-86.36" y1="-5.08" x2="-33.02" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="VR4" gate="G$1" pin="S"/>
 <label x="-48.26" y="-5.08" size="1.778" layer="95"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="REF_-5V" class="0">
