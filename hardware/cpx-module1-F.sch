@@ -223,6 +223,8 @@
 <pin name="A1" x="20.32" y="-5.08" length="middle" rot="R180"/>
 <pin name="A0" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="VCC" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<text x="-15.24" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TOUCHPAD" library_version="4" library_locally_modified="yes">
 <wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
@@ -868,6 +870,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10"/>
+</packageinstances>
 </package3d>
 <package3d name="1X10-2MM" urn="urn:adsk.eagle:package:38158/1" type="box" library_version="1">
 <description>Plated Through Hole -10 Pin 2mm
@@ -879,6 +884,9 @@ Datasheet referenced for footprint
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10-2MM"/>
+</packageinstances>
 </package3d>
 <package3d name="1X10-2MM-SMD" urn="urn:adsk.eagle:package:38159/1" type="box" library_version="1">
 <description>Plated Through Hole -10 Pin 2mm SMD
@@ -890,6 +898,9 @@ Datasheet referenced for footprint
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10-2MM-SMD"/>
+</packageinstances>
 </package3d>
 <package3d name="1X10_LOCK" urn="urn:adsk.eagle:package:38168/1" type="box" library_version="1">
 <description>Plated Through Hole -10 Pin Locking Footprint
@@ -901,6 +912,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10_LOCK"/>
+</packageinstances>
 </package3d>
 <package3d name="1X10_LOCK_LONGPADS" urn="urn:adsk.eagle:package:38160/1" type="box" library_version="1">
 <description>Plated Through Hole -10 Pin Locking Footprint with Long Pads
@@ -912,6 +926,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10_LOCK_LONGPADS"/>
+</packageinstances>
 </package3d>
 <package3d name="1X10_SMD_COMBINED" urn="urn:adsk.eagle:package:38162/1" type="box" library_version="1">
 <description>SMD -10 Pin
@@ -923,6 +940,9 @@ Datasheet referenced for footprint
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10_SMD_COMBINED"/>
+</packageinstances>
 </package3d>
 <package3d name="1X10_SMD_MALE" urn="urn:adsk.eagle:package:38163/1" type="box" library_version="1">
 <description>SMD -10 Pin
@@ -934,6 +954,9 @@ Datasheet referenced for footprint
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10_SMD_MALE"/>
+</packageinstances>
 </package3d>
 <package3d name="1X10_NO_SILK" urn="urn:adsk.eagle:package:38161/1" type="box" library_version="1">
 <description>Plated Through Hole -10 Pin No Silk
@@ -944,6 +967,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10_NO_SILK"/>
+</packageinstances>
 </package3d>
 <package3d name="1X10_LOCK_NS" urn="urn:adsk.eagle:package:38164/1" type="box" library_version="1">
 <description>Plated Through Hole -10 Pin Locking Footprint - NO SILK
@@ -955,6 +981,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_10
 </description>
+<packageinstances>
+<packageinstance name="1X10_LOCK_NS"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1243,7 +1272,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="T1" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="TOUCHPAD" device="" technology="ROUND1"/>
 <part name="T2" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="TOUCHPAD" device="" technology="ROUND1"/>
-<part name="T3" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="TOUCHPAD" device="" technology="ROUND1"/>
 <part name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_10" device="&quot;" package3d_urn="urn:adsk.eagle:package:38157/1"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -1261,7 +1289,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="P+11" gate="VCC" x="96.52" y="63.5" rot="R270"/>
 <instance part="T1" gate="G$1" x="40.64" y="111.76" rot="R180"/>
 <instance part="T2" gate="G$1" x="40.64" y="124.46" rot="R180"/>
-<instance part="T3" gate="G$1" x="40.64" y="137.16" rot="R180"/>
 <instance part="J10" gate="G$1" x="99.06" y="127" rot="R270"/>
 <instance part="GND18" gate="1" x="91.44" y="99.06"/>
 <instance part="P+12" gate="VCC" x="93.98" y="101.6" rot="R180"/>
@@ -1297,11 +1324,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="27.94" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T3" gate="G$1" pin="TOUCH"/>
-<wire x1="50.8" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
-<label x="58.42" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J10" gate="G$1" pin="3"/>
 <wire x1="86.36" y1="116.84" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 <label x="86.36" y="109.22" size="1.778" layer="95" rot="R90"/>
@@ -1312,11 +1334,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="U1" gate="G$1" pin="A5"/>
 <wire x1="40.64" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
 <label x="27.94" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="T2" gate="G$1" pin="TOUCH"/>
-<wire x1="50.8" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
-<label x="58.42" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J10" gate="G$1" pin="2"/>
@@ -1392,6 +1409,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="J10" gate="G$1" pin="10"/>
 <wire x1="104.14" y1="116.84" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
 <label x="104.14" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="T2" gate="G$1" pin="TOUCH"/>
+<wire x1="50.8" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+<label x="58.42" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
