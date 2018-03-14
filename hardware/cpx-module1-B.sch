@@ -16950,7 +16950,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC4" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="LM4041" device="DBZ" technology="B12" value="LM4040DIM3-5.0"/>
-<part name="R188" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17091,7 +17091,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="43.434" y="-48.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.434" y="-51.689" size="1.778" layer="96"/>
 </instance>
-<instance part="R188" gate="G$1" x="40.64" y="-63.5" rot="R270"/>
+<instance part="R32" gate="G$1" x="40.64" y="-63.5" rot="R270"/>
 <instance part="GND23" gate="1" x="30.48" y="-40.64" rot="R180"/>
 <instance part="C17" gate="G$1" x="66.04" y="-48.26"/>
 <instance part="GND25" gate="1" x="66.04" y="-40.64" rot="R180"/>
@@ -17326,7 +17326,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="-12V" class="0">
 <segment>
 <pinref part="P-2" gate="1" pin="-12V"/>
-<pinref part="R188" gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="-76.2" x2="40.64" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-71.12" x2="40.64" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-71.12" x2="66.04" y2="-71.12" width="0.1524" layer="91"/>
@@ -17723,7 +17723,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="REF_-5V" class="0">
 <segment>
-<pinref part="R188" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 <pinref part="IC4" gate="G$1" pin="A"/>
 <wire x1="40.64" y1="-58.42" x2="40.64" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-58.42" x2="30.48" y2="-58.42" width="0.1524" layer="91"/>
